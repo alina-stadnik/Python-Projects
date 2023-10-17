@@ -53,11 +53,11 @@ What is causing the cancellation rate increase?
 
 _What are the potential solutions?_
 
-![Image](images/solution-streaming-service.jpeg) 
+![image info](./images/solution-streaming-service.jpeg)
 
 > Supervised or Unsupervised learning problem?
 
-![Image](images/supervised-unsupervised-problem.jpeg)
+![image info](./images/supervised-unsupervised-problem.jpeg)
 
 #### **Data Structure**
 
@@ -75,7 +75,7 @@ To identify relevant model features, brainstorm any potential variables that mig
 
 #### **Data Sources**
 
-![Image](images/data-sources.jpeg)  
+![image info](./images/data-sources.jpeg)
 
 > Next, narrow the scope of your data to remove sources that are difficult to obtain and prioritize the rest: **Remember that more data doesn’t necessarily mean a better model!**
 
