@@ -25,23 +25,31 @@ O repositório está estruturado para facilitar o acesso as práticas de Python 
 ```
 ├── Python-Section/
 |   ├── README.md
-|   ├── python-exercises-basics.ipynb 
-|   ├── python-exercises-CV-NLP.ipynb (CV: Computer Vision; NLP: Natural Language Processing)
-|   ├── haarcascade_frontalface_default.xml (model for facial recognition)
-|   └── arquivos-diversos
-|       ├── alice.jpg
-|       └── alices-adventures-in-wonderland.pdf
-|   ├── Streaming-Service-Project
-|       ├── README.md (Scope of the Streaming Service Project)
-|       ├── example-cleaning-data.ipynb (practicing techniques for cleaning data)
-|       ├── example-exploratory-data-analysis.ipynb (practicing techniques for EDA)
-|       ├── example-preparing-for-modeling.ipynb (practicing techniques for preparing data for modeling)
-|       ├── movie-review-project.ipynb (practicing techniques for EDA)
-|       ├── example-gathering-data.ipynb (practicing techniques for gathering data)
-|       ├── Streaming-Service-Final-Project.ipynb (practicing techniques for EDA)
-|       ├── Data (folder containing the data used in the Jupyter notebooks)
-|       └── Images
-|          ├── data-sources.jpeg
-|          ├── solution-streaming-service.jpeg
-|          └── supervised-unsupervised-problem.jpeg
+|   └── Python Programming Exercises
+|       ├── python-exercises-basics.ipynb
+|       ├── python-exercises-CV-NLP.ipynb (CV: Computer Vision; NLP: Natural Language Processing)
+|       ├── haarcascade_frontalface_default.xml (model for facial recognition)
+|       └── arquivos-diversos
+|           ├── alice.jpg
+|           └── alices-adventures-in-wonderland.pdf
+|   ├── Data Prep & EDA
+|       ├── README.md
+|       ├── Data (folder for datasets)
+|       ├── images (folder for images)
+|       ├── example-cleaning-data.ipynb
+|       ├── example-exploratory-data-analysis.ipynb
+|       ├── example-gathering-data.ipynb
+|       ├── example-preparing-for-modeling.ipynb
+|       ├── movie-review-project.ipynb
+|       ├── Scope-Streaming-Service.ipynb
+|       ├── Streaming-Service-Final-Project.ipynb
+|       └── arquivos-diversos
+|           ├── alice.jpg
+|           └── alices-adventures-in-wonderland.pdf
+|   └── Machine Learning Practical
+|       ├── images
+|       └── Supervised Learning
+|           ├── Artificial Neural Networks (ANN)
+|               └── README.md
+|           └── SVM
 ```
