@@ -1,27 +1,26 @@
-### **Artificial Neural Network (ANN)**
+## **Artificial Neural Network (ANN)**
 
 Welcome to the section dedicated to Artificial Neural Networks (ANN) within this repository. To gain a deep understanding of ANNs, in this README there is a start with the theoretical foundations. To reinforce the understanding, there are hands-on projects using public datasets. Some practical aspects include: 1. **Implementing ANNs**; 2. **Dataset Exploration**; 3. **Training Models**; 4. **Hyperparameter Tuning**; and 5. **Evaluating Models**
 
 Table of content:
 
-Section 1 - [**Definition of ANN**](#section1)
+Section 1 - **Definition of ANN**
 
-Section 2 - [**Activation Functions**](#section-2)
+Section 2 - **Activation Functions**
 
-Section 3 - [**Gradient Descent**](section-3)
+Section 3 - **Gradient Descent**
 
-Section 4 - [**Optimizers**](section-4)
+Section 4 - **Optimizers**
 
-Section 5- [**Dropout**](section-5)
+Section 5- **Dropout**
 
-Section 6 - [**Hyper parameter tuning in ANN**](section-6)
+Section 6 - **Hyper parameter tuning in ANN**
 
-Section 7 - [**Batch normalization**](section-7)
+Section 7 - **Batch normalization**
 
-____
-#<a name="section-1">
-#### **What is a Artificial Neural Network?**
-</a> 
+### **What is a Artificial Neural Network?**
+_______
+
 A neural network is a series of algorithms that help to recognize relationships in a dataset through a process which mimics the way human brain works. In this way, it can adapt to Changing Input and generate the Best Results for it.
 
 A neuron in a neural network is a **mathematical function**. It collects and classifies information according to a **specific architecture**.
@@ -34,11 +33,8 @@ There are 3 major components in a Neural Network:
 - **Hidden Layer**: one or more and it's located between the input and output of the artificial neural network architecture. The hidden layer applies weights to the inputs and directs them through an activation functions as the output. Hidden layers perform **nonlinear transformations** of the inputs entered into the network.
 - **Output Layer**: it produces output for the program.
 
-____
-
-#<a name="section-2">
 #### **Activation Functions**
-</a>
+_______
 
 The hidden layers in artificial neural network use **activation functions to transform the data provided by the input layer**. Activation functions are mathematical equations that determine the output of a neural network. The function is attached to each neuron in the network, and determines wether it should be activated or not, based on wheter each neuron's input is relevant for the **model's prediction**. 
 
@@ -68,11 +64,8 @@ Sigmoid or Tanh activation function can be used at the final layer to solve bina
 - **Sigmoid**: it's suitable for problems where each input can belong to one of several classes. _ It's suitable when you have two mutually exclusive classe._
 - **Softmax**: it takes multiple inputs and transforms them into a probability distribution over all the classes, ensuring that the sum of the probabilities for all classes is equal to 1. _It's suitable for problems where each input can belong to one of several classes._
 
-___
-
-#<a name="section-3">
-#### **Gradient Descent** (also known as 'back propagation')
-</a>
+### **Gradient Descent** (also known as 'back propagation')
+_______
 
 ![image](https://sebastianraschka.com/images/faq/gradient-optimization/ball.png)
 
@@ -85,7 +78,7 @@ It's an iterative optimization technique that is used to improve deep learning a
 
 There are two popular types of gradient descent algorithms which are widely used: **Batch Gradient Descent** and **Stochastic Gradiente Descent** algorithm.
 
-##### **Batch vs. Stochastic**
+#### **Batch vs. Stochastic**
 
 **Batch Gradient Descent:** two main parts are: gradient calculation, which is nothing but slope; and weight updation.
 **Epoch**: the model has performed an epoch, if gradients for whole training data are calculated and the weights are updated. While training a model, it means that multiple epochs are being performed on top of training data.
@@ -125,11 +118,8 @@ There are two popular types of gradient descent algorithms which are widely used
 | Accuracy   | 👎        | 👍       | 👍      |
 | Updates   | Every time        | Every mini-batch        | Once       |
 
-___
-
-#<a name="section-4">
-#### **Optimizers**
-</a>
+### **Optimizers**
+_______
 
 Optimizers are used for improving speed and performance for training a specific model. **Vanilla gradient descent ensures our model is converging to the optimal weights**, but it does not ensure the speed of convergence. One parameter that impacts the speed of convergence is the learning rate.
 - **Learning rate** is multiplied to the gradients before updating weights.
@@ -138,11 +128,8 @@ Optimizers are used for improving speed and performance for training a specific 
 
 **Higher learning rate converges quicker but never gets to the optimal loss**, it just jumps around it. On the other hand, lower learning rate would take a lot of time to learn. It's necessary to choose which learning rate is just right to get the job done. 
 
-___
-
-#<a name="section-5">
-#### **Dropout**
-</a>
+### **Dropout**
+_______
 
 **Dropout refers to deactivating (dropping out) or removing randomly  a portion of neurons or units during training** from a hidden layer in a neural network to **avoid overfitting**. This process involves setting a fraction of neuron activations to zero at each training iteration, effectively 'dropping out' some of the connections. **Regularization reduces overfitting by adding penalty to all features which are useless**. Dropout is an approach to regularization in neural networks which helps in independent learning of the neurons.
 
@@ -159,11 +146,8 @@ The main idea behind dropout is to introduce randomness in the network during tr
 - 0.2 means 20% of all neurons from hidden layer is removed.
 - 0.5 means 50% of all the neurons are removed at random from the specified hidden layer.
 
-___
-
-#<a name="section-6">
-#### **Hyper parameter tuning in neural networks**
-</a>
+### **Hyper parameter tuning in neural networks**
+_______
 
 Important parameters to be considered while tuning:
 - Number of layers in a neural network;
@@ -195,11 +179,8 @@ Important parameters to be considered while tuning:
     -If the **problem statement is complex, having low batch size works better**. Low batch size and mini batch gradient descent will have more weight updates which ensures the weights are better tuned.
     - If the **problem statement is simple, try to have the maximum batch size** that can fit in the memory.
 
-___
-
-#<a name="section-7">
-#### **Batch normalization**
-</a>
+### **Batch normalization**
+_______
 
 Batch normalization is a technique for training very deep neural networks that standardizes the inputs to a layer for each mini-batch. This has the effect of stabilizing the learning process and dramatically reducing the number of training epochs required to train deep networks.
 
